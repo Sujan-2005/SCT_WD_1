@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkillCraft Technology — Learn. Build. Master.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.5 9.5L12 21L21.5 9.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2.5 9.5H21.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="rgba(255,255,255,0.15)"/>
+        <path d="M8 3L8.5 9.5" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M16 3L15.5 9.5" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span class="logo-text">SkillCraft</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#testimonials">About</a></li>
+    <li><a href="#cta" class="nav-cta">Join Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    Home
+  </a>
+  <a href="#courses">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+    Courses
+  </a>
+  <a href="#features">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+    Features
+  </a>
+  <a href="#testimonials">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    About
+  </a>
+  <a href="#cta" class="mob-cta">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z"/><path d="M2.5 9.5H21.5"/><path d="M8 3L8.5 9.5"/><path d="M16 3L15.5 9.5"/></svg>
+    Join Now — Free
+  </a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Now live — 500+ new courses added
+    </div>
+    <h1>
+      Master the Skills<br>
+      of <span class="grad-text">Tomorrow's</span><br>
+      <span class="grad-text-2">Digital World</span>
+    </h1>
+    <p class="hero-sub">
+      Join 250,000+ learners building real-world skills in coding, design,
+      data science, and beyond — with hands-on projects and expert mentors.
+    </p>
+    <div class="hero-actions">
+      <a href="#courses" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z"/><path d="M2.5 9.5H21.5"/><path d="M8 3L8.5 9.5"/><path d="M16 3L15.5 9.5"/></svg>
+        Start Learning Free
+      </a>
+      <a href="#features" class="btn-secondary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/></svg>
+        Watch Demo
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">250K+</div>
+        <div class="stat-label">Active Learners</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Expert Courses</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Satisfaction Rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Industry Mentors</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="grad-divider"></div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="center" style="margin-bottom: 56px">
+    <div class="section-label">Why SkillCraft</div>
+    <h2 class="section-title">Everything you need to level up</h2>
+    <p class="section-sub">A complete ecosystem for learning, building, and growing your tech career — all in one place.</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon icon-blue">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#818CF8" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      </div>
+      <div class="feature-title">Structured Learning Paths</div>
+      <div class="feature-desc">Follow curated roadmaps designed by industry experts to take you from beginner to job-ready in record time.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon icon-cyan">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+      <div class="feature-title">Live Coding Labs</div>
+      <div class="feature-desc">Write, run, and debug code right in your browser. No setup needed — just open and start building instantly.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon icon-green">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div class="feature-title">Mentor Support</div>
+      <div class="feature-desc">Get real-time guidance from 50+ seasoned professionals across the tech industry whenever you're stuck.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon icon-purple">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      </div>
+      <div class="feature-title">Certificates & Badges</div>
+      <div class="feature-desc">Earn industry-recognized credentials you can share directly to LinkedIn and your portfolio with one click.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon icon-orange">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#FB923C" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      </div>
+      <div class="feature-title">AI-Powered Feedback</div>
+      <div class="feature-desc">Our AI reviews your code, spots mistakes, and suggests improvements — like having a senior dev always by your side.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon icon-pink">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#F472B6" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      </div>
+      <div class="feature-title">Community Projects</div>
+      <div class="feature-desc">Collaborate on real open-source projects with a global community of learners and gain portfolio-worthy experience.</div>
+    </div>
+  </div>
+</section>
+
+<div class="grad-divider"></div>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="center" style="margin-bottom: 56px">
+    <div class="section-label">Top Courses</div>
+    <h2 class="section-title">Explore what's trending</h2>
+    <p class="section-sub">Handpicked courses built for real-world applications — taught by practitioners, not just academics.</p>
+  </div>
+  <div class="courses-grid">
+    <!-- Course 1 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-1">
+        <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=600&q=80" alt="Web Development" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 9l3 3-3 3m5 0h3"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+          Web Dev
+        </div>
+        <div class="course-thumb-level">Beginner → Pro</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-blue">Web Dev</span>
+        <div class="course-title">Full-Stack Web Development Bootcamp</div>
+        <div class="course-desc">Build modern web apps with React, Node.js, PostgreSQL, and cloud deployment from scratch.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              48 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              12 projects
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.9
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 2 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-2">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" alt="Machine Learning" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V12h2l-4 5-4-5h2V9.5C8.8 8.8 8 7.5 8 6a4 4 0 0 1 4-4z"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>
+          AI & ML
+        </div>
+        <div class="course-thumb-level">Intermediate</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-cyan">AI & ML</span>
+        <div class="course-title">Machine Learning with Python & TensorFlow</div>
+        <div class="course-desc">From linear regression to deep neural networks — master the core of modern AI development.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              36 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              8 projects
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.8
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 3 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-3">
+        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="Mobile Development" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          Mobile
+        </div>
+        <div class="course-thumb-level">Beginner</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-green">Mobile</span>
+        <div class="course-title">React Native — Build iOS & Android Apps</div>
+        <div class="course-desc">Ship production-ready mobile apps for both platforms using a single JavaScript codebase.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              30 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              6 projects
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.7
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 4 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-4">
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80" alt="Cybersecurity" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Security
+        </div>
+        <div class="course-thumb-level">Advanced</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-purple">Security</span>
+        <div class="course-title">Ethical Hacking & Cybersecurity Mastery</div>
+        <div class="course-desc">Learn penetration testing, network security, and how to protect digital systems from threats.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              40 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+              10 labs
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.9
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 5 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-5">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" alt="Cloud Architecture" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          Cloud
+        </div>
+        <div class="course-thumb-level">Intermediate</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-orange">Cloud</span>
+        <div class="course-title">AWS & Cloud Architecture for Developers</div>
+        <div class="course-desc">Deploy scalable applications on AWS with EC2, S3, Lambda, and modern DevOps workflows.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              28 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              9 projects
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.8
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 6 -->
+    <div class="course-card">
+      <div class="course-thumb thumb-6">
+        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="UI/UX Design" loading="lazy">
+        <div class="course-thumb-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/></svg>
+          Design
+        </div>
+        <div class="course-thumb-level">All Levels</div>
+      </div>
+      <div class="course-body">
+        <span class="course-tag tag-pink">Design</span>
+        <div class="course-title">UI/UX Design with Figma — Zero to Hero</div>
+        <div class="course-desc">Design beautiful, user-centric interfaces and prototype interactive experiences like a pro.</div>
+        <div class="course-meta">
+          <div class="course-info">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              22 hrs
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              7 projects
+            </span>
+          </div>
+          <div class="course-rating">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            4.9
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="grad-divider"></div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="center" style="margin-bottom: 56px">
+    <div class="section-label">Testimonials</div>
+    <h2 class="section-title">Loved by learners worldwide</h2>
+    <p class="section-sub">Real stories from real people who transformed their careers with SkillCraft.</p>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"SkillCraft completely changed my career trajectory. Within 6 months I went from a complete beginner to landing a React developer role at a startup. The hands-on projects were game-changing."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-1">AK</div>
+        <div>
+          <div class="author-name">Arjun Kumar</div>
+          <div class="author-role">Frontend Dev · Bangalore</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The ML course is the best I've taken online — bar none. The AI feedback on my assignments caught bugs I didn't even know I was making. Worth every rupee."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-2">PS</div>
+        <div>
+          <div class="author-name">Priya Sharma</div>
+          <div class="author-role">ML Engineer · Hyderabad</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"I tried Udemy and Coursera but nothing clicked like SkillCraft. The mentor support is incredible — got code review feedback within hours. Highly recommend to anyone serious about tech."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-3">MR</div>
+        <div>
+          <div class="author-name">Mohammed Reza</div>
+          <div class="author-role">Full-Stack Dev · Dubai</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The cybersecurity course got me certified and employed in 4 months. The lab environments are incredibly realistic. This is the real deal for anyone wanting to break into security."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-4">SL</div>
+        <div>
+          <div class="author-name">Sarah Lim</div>
+          <div class="author-role">Security Analyst · Singapore</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"As a self-taught designer trying to move into UI/UX, SkillCraft gave me the structured foundation I was missing. The Figma course is incredibly thorough and beginner-friendly."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-5">NP</div>
+        <div>
+          <div class="author-name">Nina Patel</div>
+          <div class="author-role">UX Designer · London</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The community aspect is what sets SkillCraft apart. Collaborating on real projects with learners across the world gave me experience that my resume and interviewers actually care about."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar av-6">DO</div>
+        <div>
+          <div class="author-name">David Okonkwo</div>
+          <div class="author-role">Cloud Architect · Lagos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="grad-divider"></div>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-glow"></div>
+  <div class="cta-content">
+    <div class="section-label" style="display:block;text-align:center;margin-bottom:16px">Get Started Today</div>
+    <h2 class="cta-title">
+      Your future in tech<br>
+      starts <span style="background:var(--grad1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">right now</span>
+    </h2>
+    <p class="cta-sub">Join 250,000+ learners already building skills that matter. Free forever on our Starter plan — no credit card required.</p>
+    <div class="cta-btns">
+      <a href="#" class="btn-primary" style="font-size:1rem;padding:16px 32px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z"/><path d="M2.5 9.5H21.5"/><path d="M8 3L8.5 9.5"/><path d="M16 3L15.5 9.5"/></svg>
+        Start for Free
+      </a>
+      <a href="#courses" class="btn-secondary" style="font-size:1rem;padding:16px 32px;">
+        Browse Courses
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <p style="color:var(--muted);font-size:0.8rem;margin-top:20px;display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;">
+      <span style="display:flex;align-items:center;gap:5px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        Free Starter plan
+      </span>
+      <span style="display:flex;align-items:center;gap:5px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        No credit card
+      </span>
+      <span style="display:flex;align-items:center;gap:5px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        Cancel anytime
+      </span>
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 9.5L12 21L21.5 9.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2.5 9.5H21.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="rgba(255,255,255,0.15)"/>
+            <path d="M8 3L8.5 9.5" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M16 3L15.5 9.5" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">SkillCraft</span>
+      </a>
+      <p>Empowering the next generation of developers, designers, and digital creators with world-class education.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn" title="Twitter/X">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-btn" title="LinkedIn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" class="social-btn" title="YouTube">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0F172A"/></svg>
+        </a>
+        <a href="#" class="social-btn" title="Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Learning Paths</a></li>
+        <li><a href="#">Live Labs</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Certificates</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">For Teams</a></li>
+        <li><a href="#">Affiliates</a></li>
+        <li><a href="#">Status</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 SkillCraft Technology. All rights reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="#cta">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3L2.5 9.5L12 21L21.5 9.5L16 3H8Z"/><path d="M2.5 9.5H21.5"/><path d="M8 3L8.5 9.5"/><path d="M16 3L15.5 9.5"/></svg>
+    Join Now — It's Free
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
